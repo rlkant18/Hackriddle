@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rahulkant.myapplication.MainActivity">
+
+    <include layout="@layout/content_main"
+        android:id="@+id/include" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#006747"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.rahulkant.myapplication.MainActivity"
+        tools:showIn="@layout/activity_mainscreen"
+        android:background="#FFD700">
+
+        <TextView
+            android:text="QuickPark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:id="@+id/textView36"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColorLink="?android:attr/editTextColor" />
+
+        <ImageButton
+            android:text="Going"
+            android:id="@+id/goingbutton"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:hapticFeedbackEnabled="true"
+            android:src="@drawable/goingcar"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/goingcar"
+            android:layout_marginEnd="37dp"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/textView36"
+            android:layout_alignEnd="@+id/textView36" />
+
+        <ImageButton
+            android:text="Coming"
+            android:id="@+id/comingbutton"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:hapticFeedbackEnabled="true"
+            android:src="@drawable/comingcar"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/comingcar"
+            android:background="@android:color/transparent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="33dp"
+            android:layout_below="@+id/goingbutton" />
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

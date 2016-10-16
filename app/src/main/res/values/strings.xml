@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_garagelist">GaragelistActivity</string>
+    <string name="title_activity_collins_parking">CollinsParking</string>
+    <string name="title_activity_richard_abeard">RichardABeard</string>
+    <string name="title_activity_marshall_student_center">MarshallStudentCenter</string>
+    <string name="title_activity_going_home">GoingHome</string>
+
+        <string-array name="Select_parking_garage">
+        <item>Collins Parking Garage</item>
+        <item>Richard A. Beard Parking Garage</item>
+        <item>Marshall Student Center Parking Garage</item>
+    </string-array>
+        <string-array name="Collins_Parking_Garage">
+            <item>Floor 1</item>
+            <item>Floor 2</item>
+            <item>Floor 3</item>
+            <item>Floor 4</item>
+            <item>Floor 5</item>
+        </string-array>
+        <string-array name="Richard_A_Beard_Parking_Garage">
+            <item>Floor 1</item>
+            <item>Floor 2</item>
+            <item>Floor 3</item>
+            <item>Floor 4</item>
+            <item>Floor 5</item>
+            <item>Floor 6</item>
+            <item>Floor 7</item>
+            <item>Floor 8</item>
+        </string-array>
+    <string-array name="Marshall_Student_Center">
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+        <item>Floor 4</item>
+        <item>Floor 5</item>
+        <item>Floor 6</item>
+    </string-array>
+
+    </resources>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rahulkant.myapplication.GaragelistActivity">
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rahulkant.myapplication.GaragelistActivity"
+    android:background="#FFD700">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#006747"
+            android:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageButton
+        android:text="Collins Boulevard"
+        android:id="@+id/button11"
+        android:layout_weight="1"
+        android:src="@drawable/collins"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:text="Marshall Student Center"
+        android:id="@+id/button13"
+        android:src="@drawable/crescenthill"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button12"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:text="Richard A. Beard "
+        android:id="@+id/button12"
+        android:src="@drawable/beard"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button11"
+        android:background="@android:color/transparent" />
+
+
+</RelativeLayout>
